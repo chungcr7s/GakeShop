@@ -12,7 +12,7 @@ import {
   newArrThree,
   newArrFour,
 } from "../assets/images/index";
-
+//
 // =================== NavBarList Start here ====================
 export const navBarList = [
   {
