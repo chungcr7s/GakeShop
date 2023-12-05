@@ -16,11 +16,11 @@ const SpecialOffers = () => {
         <Product
           _id="1101"
           img={spfOne}
-          productName="Cap for Boys"
-          price="35.00"
-          color="Blank and White"
+          productName="Smart Ceiling Light"
+          price="70.00"
+          color="Black and White"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="This simple and clean Smart LED ceiling light is also ideal for store lighting, gallery lighting, display lighting, work lighting, product validation and home lighting."
         />
         <Product
           _id="1102"

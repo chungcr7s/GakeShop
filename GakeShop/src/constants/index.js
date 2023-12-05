@@ -33,7 +33,7 @@ export const navBarList = [
   {
     _id: 1004,
     title: "Contact",
-    link: "contact",
+    link: "/contact",
   },
   {
     _id: 1005,
@@ -47,11 +47,11 @@ export const SplOfferData = [
   {
     _id: "201",
     img: spfOne,
-    productName: "Cap for Boys",
-    price: "35.00",
-    color: "Blank and White",
+    productName: "Smart Ceiling Light",
+    price: "70.00",
+    color: "Black and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "This simple and clean Smart LED ceiling light is also ideal for store lighting, gallery lighting, display lighting, work lighting, product validation and home lighting.",
   },
   {
     _id: "202",
@@ -87,13 +87,13 @@ export const SplOfferData = [
 
 export const paginationItems = [
   {
-    _id: 1001,
+    _id: "201",
     img: spfOne,
-    productName: "Cap for Boys",
-    price: "35.00",
-    color: "Blank and White",
+    productName: "Smart Ceiling Light",
+    price: "70.00",
+    color: "Black and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "This simple and clean Smart LED ceiling light is also ideal for store lighting, gallery lighting, display lighting, work lighting, product validation and home lighting.",
   },
   {
     _id: 1002,
@@ -295,13 +295,13 @@ export const paginationItems = [
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
-    _id: 1024,
+    _id: "201",
     img: spfOne,
-    productName: "Cap for Boys",
-    price: "35.00",
-    color: "Blank and White",
+    productName: "Smart Ceiling Light",
+    price: "70.00",
+    color: "Black and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "This simple and clean Smart LED ceiling light is also ideal for store lighting, gallery lighting, display lighting, work lighting, product validation and home lighting.",
   },
   {
     _id: 1025,
@@ -493,13 +493,13 @@ export const paginationItems = [
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
-    _id: 1046,
+    _id: "201",
     img: spfOne,
-    productName: "Cap for Boys",
-    price: "35.00",
-    color: "Blank and White",
+    productName: "Smart Ceiling Light",
+    price: "70.00",
+    color: "Black and White",
     badge: true,
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    des: "This simple and clean Smart LED ceiling light is also ideal for store lighting, gallery lighting, display lighting, work lighting, product validation and home lighting.",
   },
 ];
 // =================== PaginationItems End here =================
