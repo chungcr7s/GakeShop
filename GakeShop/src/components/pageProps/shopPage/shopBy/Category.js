@@ -13,16 +13,16 @@ const Category = () => {
     },
     {
       _id: 991,
-      title: "Gudgets",
+      title: "Cell Phones",
     },
     {
       _id: 992,
-      title: "Accessories",
+      title: "Computers & Tablets",
       icons: true,
     },
     {
       _id: 993,
-      title: "Electronics",
+      title: "Appliances",
     },
     {
       _id: 994,
