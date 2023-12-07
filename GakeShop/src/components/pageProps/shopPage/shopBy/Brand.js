@@ -11,19 +11,19 @@ const Brand = () => {
     },
     {
       _id: 9007,
-      title: "Ultron",
+      title: "SamSung",
     },
     {
       _id: 9008,
-      title: "Unknown",
+      title: "LG",
     },
     {
       _id: 9009,
-      title: "Shoppers Home",
+      title: "BOSCH",
     },
     {
       _id: 9010,
-      title: "Hoichoi",
+      title: "Others",
     },
   ];
 

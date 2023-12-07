@@ -16,10 +16,10 @@ const YearProduct = () => {
           <h1 className="text-3xl font-semibold text-primeColor">
             Product of The year
           </h1>
-          <p className="text-base font-normal text-primeColor max-w-[600px] mr-4">
+          {/* <p className="text-base font-normal text-primeColor max-w-[600px] mr-4">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
             cupiditate modi amet! Facilis, aperiam quaerat.
-          </p>
+          </p> */}
           <ShopNow />
         </div>
       </div>
