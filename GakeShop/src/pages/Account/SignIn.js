@@ -65,8 +65,9 @@ const SignIn = () => {
                 Get started fast 
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Begin your journey instantly with our user-friendly platform. 
+              Effortlessly set up your account and start exploring a world of possibilities in mere minutes. 
+              Get up and running without any hassle.
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -78,8 +79,9 @@ const SignIn = () => {
                 Access all services
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Unlock a comprehensive array of services at your fingertips. 
+              Seamlessly navigate through our platform to access a wide range of features and tools designed to cater to your every need.
+              Discover convenience and efficiency in one place.
             </p>
           </div>
           <div className="w-[300px] flex items-start gap-3">
@@ -91,8 +93,9 @@ const SignIn = () => {
                 Trusted by online Shoppers
               </span>
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab omnis
-              nisi dolor recusandae consectetur!
+              Join the multitude of online shoppers who rely on us for a secure and reliable shopping experience. 
+              Our track record speaks for itself, with a community of satisfied customers who trust us 
+              for quality, safety, and seamless transactions. Shop with confidence !
             </p>
           </div>
           <div className="flex items-center justify-between mt-10">

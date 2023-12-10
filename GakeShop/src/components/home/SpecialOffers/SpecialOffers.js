@@ -25,29 +25,29 @@ const SpecialOffers = () => {
         <Product
           _id="1102"
           img={spfTwo}
-          productName="Tea Table"
-          price="180.00"
-          color="Gray"
+          productName="iPhone 13"
+          price="650.00"
+          color="Blue"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="iPhone 13 Pro Max. Upgrade your camera. Super Retina XDR display with ProMotion for a faster, more responsive feel. Lightning-fast A15 Bionic chip, superfast 5G, durable design and long battery life."
         />
         <Product
           _id="1103"
           img={spfThree}
           productName="Headphones"
-          price="25.00"
-          color="Mixed"
+          price="280.00"
+          color="Black"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Sony - WH1000XM5 Wireless Noise-Canceling Over-the-Ear Headphones."
         />
         <Product
           _id="1104"
           img={spfFour}
-          productName="Sun glasses"
-          price="220.00"
-          color="Black"
+          productName="Smart Refrigerator"
+          price="620.00"
+          color="Gray"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Samsung - French Door Counter Depth Smart Refrigerator with AutoFill Water Pitcher."
         />
       </div>
     </div>
