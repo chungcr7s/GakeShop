@@ -7,6 +7,10 @@ import {
   newArrTwo,
   newArrThree,
   newArrFour,
+  newArrFive,
+  newArrSix,
+  newArrSeven,
+  newArrEight,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -54,11 +58,11 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
-            price="44.00"
+            productName="Radio Alarm Clock"
+            price="28.00"
             color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Stylish AM/FM Clock-radio with automatic time setting, brightness control, and gradual alarm ."
           />
         </div>
         <div className="px-2">
@@ -69,18 +73,18 @@ const NewArrivals = () => {
             price="250.00"
             color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Smart Watch 9 Pro Real Fixed Screw 49mm 2.19 Amoled Screen with ECG Game Wireless Charge 450Mah Men Women For Sport."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
-            color="Mixed"
+            productName="Bed Lamp"
+            price="14.00"
+            color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Stick Lamp with USB Charging Port and Fabric Shade - Brushed Nickel base/Black shade."
           />
         </div>
         <div className="px-2">
@@ -88,21 +92,54 @@ const NewArrivals = () => {
             _id="100004"
             img={newArrFour}
             productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
-            badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            price="10.00"
+            color="Gray"
+            badge={true}
+            des="Repeat Talking Toy Electronic Plush Toys Can Sing Record Lighten USB Early Education Funny Gift Interactive Bled."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
-            badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            img={newArrFive}
+            productName="Air Conditioner"
+            price="350.00"
+            color="White"
+            badge={true}
+            des="This small air conditioner is lightweight enough to carry to any room you like, and it is a snap to install, thanks to the single hose and included window adapter."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100006"
+            img={newArrSix}
+            productName="Robot Vacuum"
+            price="380.00"
+            color="Black"
+            badge={true}
+            des="Shark - AI Ultra Robot Vacuum with Matrix Clean, Home Mapping, HEPA Bagless Self Empty Base, WiFI Connected."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100007"
+            img={newArrSeven}
+            productName="Gaming Laptop"
+            price="820.00"
+            color="Moonlight White"
+            badge={true}
+            des="ROG Zephyrus G14 14” 165Hz Gaming Laptop QHD-AMD Ryzen 7 7735HS with 16GB DDR5 Memory-NVIDIA RTX 4050 6G-512GB SSD."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100008"
+            img={newArrEight}
+            productName="Foldable Drone"
+            price="40.00"
+            color="Black"
+            badge={true}
+            des="This drone jam-packed with features designed to give you the cleanest view possible, including obstacle avoidance, optical flow, and real time viewing."
           />
         </div>
       </Slider>

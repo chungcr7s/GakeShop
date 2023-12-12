@@ -120,7 +120,7 @@ const Footer = () => {
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
             <p className="text-center mb-4">
-              To get more information about new products !
+              The latest news, articles, and resources, sent to your inbox weekly !
             </p>
             {subscription ? (
               <motion.p

@@ -16,38 +16,38 @@ const BestSellers = () => {
         <Product
           _id="1011"
           img={bestSellerOne}
-          productName="Flower Base"
-          price="35.00"
-          color="Blank and White"
+          productName="Wireless Speaker"
+          price="180.00"
+          color="Black"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Marshall - Kilburn II Portable Bluetooth Speaker - Black and Brass."
         />
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="New Backpack"
-          price="180.00"
-          color="Gray"
-          badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          productName="Camera Security"
+          price="250.00"
+          color="Black and White"
+          badge={true}
+          des="Spotlight Camera Security Bundle - 3 Wire-Free Cameras Indoor/Outdoor 2K with Color Night Vision."
         />
         <Product
           _id="1013"
           img={bestSellerThree}
-          productName="Household materials"
-          price="25.00"
-          color="Mixed"
+          productName="Smart Washer"
+          price="620.00"
+          color="Black and White"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Washer with Smarter Wash Technology, Easier Reach & Microban Technology."
         />
         <Product
           _id="1014"
           img={bestSellerFour}
-          productName="Travel Bag"
-          price="220.00"
-          color="Black"
-          badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          productName="Apple - Ipad"
+          price="240.00"
+          color="Black, White and Gray "
+          badge={true}
+          des="Apple - 10.2-Inch iPad (9th Generation) with Wi-Fi - 64GB."
         />
       </div>
     </div>
