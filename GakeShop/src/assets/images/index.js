@@ -1,4 +1,4 @@
-import logo from "./orebiLogo.png";
+import logo from "./gakeLogo.png";
 import logoLight from "./logoLight.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.png";
