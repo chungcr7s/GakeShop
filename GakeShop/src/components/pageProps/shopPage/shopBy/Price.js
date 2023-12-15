@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import NavTitle from "./NavTitle";
-import { paginationItems } from "../../../../constants";
 
 const Price = () => {
   const priceList = [
@@ -35,24 +34,6 @@ const Price = () => {
       priceTwo: 1000.0,
     },
   ];
-
-  const [selectedPrice, setSelectedPrice] = useState(null);
-  const [filteredProducts, setFilteredProducts] = useState([]);
-
-  const handlePriceFilter = (price) => {
-    // Lọc sản phẩm theo giá được chọn
-    const filteredProducts = paginationItems.filter(
-      (product) =>
-        product.price >= price.priceOne && product.price <= price.priceTwo
-    );
-
-    // Cập nhật danh sách sản phẩm đã lọc vào state
-    setFilteredProducts(filteredProducts);
-
-    // Cập nhật giá được chọn
-    setSelectedPrice(price);
-  };
-
   return (
     <div className="cursor-pointer">
       <NavTitle title="Shop by Price" icons={false} />
@@ -62,28 +43,12 @@ const Price = () => {
             <li
               key={item._id}
               className="border-b-[1px] border-b-[#F0F0F0] pb-2 flex items-center gap-2 hover:text-primeColor hover:border-gray-400 duration-300"
-              onClick={() => handlePriceFilter(item)}
-              style={{
-                color: selectedPrice === item ? "red" : "inherit", // Màu đỏ cho giá được chọn
-              }}
             >
               ${item.priceOne.toFixed(2)} - ${item.priceTwo.toFixed(2)}
             </li>
           ))}
         </ul>
       </div>
-
-      {/* Hiển thị danh sách sản phẩm đã lọc */}
-      {filteredProducts.length > 0 && (
-        <div>
-          <h2>Filtered Products:</h2>
-          <ul>
-            {filteredProducts.map((product) => (
-              <li key={product._id}>{product.productName}</li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };
